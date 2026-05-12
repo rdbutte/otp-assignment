@@ -7,6 +7,12 @@
 - Angular Frontend Compatible (CORS enabled)
 - Node.js Backend
 
+## Run Frontend
+```
+- npm install
+- ng serve
+```
+
 ## Run Backend
 ```
 npm install
