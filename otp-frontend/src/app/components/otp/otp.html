@@ -1,0 +1,18 @@
+<!-- <p>otp works!</p> -->
+
+<div class="container">
+  <h2>Phone Verification</h2>
+
+  <input [(ngModel)]="phone" placeholder="Enter phone number" />
+  <button (click)="sendOtp()">Send OTP</button>
+
+  @if (timer > 0) {
+  OTP expires in {{timer}} seconds
+  }
+
+
+  <input [(ngModel)]="otp" placeholder="Enter OTP" />
+  <button (click)="verifyOtp()">Verify OTP</button>
+
+  <p>{{message}}</p>
+</div>
